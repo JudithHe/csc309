@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+ <head>
+ 	<meta charset="utf-8">
+    <title>Exercise 1: Twitter Layout</title>
+    <link rel="stylesheet" type="text/css" href="e1_style.css">
+ </head>
+
+ <body>
+ 	<!-- The profile picture-->
+ 	<div >
+ 		<img id="bigProfilePicCircle" src="uoft.jpg" alt = "uoft.jpg">
+ 	</div>
+ 	
+ 	<!-- The header -->
+ 	<div id="header">
+ 		<!-- Twitter logo goes in here -->
+ 		<img src="bird.png" alt = "bird.png" class="birdLogo">
+ 		
+ 	</div>
+
+	<!-- The big banner image -->
+ 	<div id="banner" > <!-- Just holds the banner image, don't need to style this div. -->
+
+ 		<!-- Banner image goes in here -->
+ 		<img src="uoft_banner.jpeg" alt = "uoft_banner.jpeg" class = "bannerPic">
+
+ 	</div>
+
+ 	<div id="profileStats">
+ 		<ul>
+ 			<!-- Style the list element: Label and number -->
+ 			<li>Tweets<br><span class="profileStatsNumber">478</span></li>
+ 			<!-- Add the rest of the stats below -->
+ 			<li>Followers<br><span class="profileStatsNumber">23K</span></li>
+ 			<li>Following<br><span class="profileStatsNumber">12</span></li>
+ 			<li>Likes<br><span class="profileStatsNumber">10.3K</span></li>
+ 		</ul>
+ 	</div>
+
+ 	<!-- The Profile Info Section -->
+ 	<div id="profileInfo">
+ 		<h2>University of Toronto</h2>
+ 		<p class="grey">@UofT</p>
+ 		<p>
+ 			Connect with Canada's top university and one of the world’s strongest academic and research powerhouses. Find the latest news & events @uoftnews. #UofT
+		</p>
+ 	</div>
+
+
+ 	<!-- The Timeline Section -->
+ 	<div id='timeline'>
+
+ 		<div class='timelineHeader'>
+ 			<ul>
+	 			<li><a href="">Tweets</a></li>
+	 			<li><a href="">Tweets & Replies</a></li>
+ 			</ul>
+ 		</div>
+
+ 		<!-- First tweet -->
+ 		<div class='tweet'>
+ 			<!-- Put the tweet icon and content in this div.
+ 			You should have two divs inside this div: one that is a container for the tweet icon,
+ 			and one that has the content of the tweet.
+ 			Remember to look in the starter CSS for appropriate class names that 
+ 			match these descriptions. -->
+ 			<div class="tweetIconContainer">
+ 				<img src="uoft.jpg" alt = "uoft.jpg" class="tweetIcon">
+ 			</div>
+ 			<div class="tweetContent">
+ 				<h2>University of Toronto <em class="grey">@UofT</em></h2>
+ 				
+ 				<p>Another great day at UofT!
+	 				<em class="hashtag">#UofT</em>
+	 				<em class="hashtag">#GreatDay</em>
+ 				</p>
+ 			</div>
+
+
+ 		</div>
+
+ 		<!-- Second tweet -->
+ 		<div class='tweet'>
+ 			<!-- Reuse all of the tweet classes from the one above, 
+ 			and just change the content of the tweet. -->
+ 			<div class="tweetIconContainer">
+ 				<img src="uoft.jpg" alt = "uoft.jpg" class="tweetIcon">
+ 			</div>
+ 			<div class="tweetContent">
+ 				<h2>University of Toronto <em class="grey">@UofT</em></h2>
+ 				<p>Check out some books at <em class="hashtag">#robarts</em></p>
+ 				<img src="robarts.jpg" alt = "robarts.jpg" class="tweetContentPicture">
+ 			</div>
+ 		</div>
+
+		<!-- Add your own tweet below -->
+		<div class='tweet'>
+ 			<!-- Reuse all of the tweet classes from the one above, 
+ 			and just change the content of the tweet. -->
+ 			<div class="tweetIconContainer">
+ 				<img src="icon.jpg" alt = "icon.jpg" class="tweetIcon">
+ 			</div>
+ 			<div class="tweetContent">
+ 				<h2>Judith He<em class="grey">@judith_he</em></h2>
+ 				<p>Have a nice day:)
+ 					<em class="hashtag">#judy</em>
+ 					<em class="hashtag">#jenny</em>
+ 				</p>
+ 				<img src="judy.png" alt = "judy.png"class="tweetContentPicture">
+ 			</div>
+ 		</div>
+
+
+
+
+ 	</div>
+ </body>
+</html>
